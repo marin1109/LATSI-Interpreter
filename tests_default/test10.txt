@@ -1,0 +1,21 @@
+1 ENTREE A, B
+2 C = A + B
+3 IMPRIME "Somme initiale: ", C
+4 SI A > B ALORS IMPRIME "A est superieur a B"
+5 REM "Test de boucle"
+6 I = 0
+7 J = 10
+8 SI I < J ALORS VAVERS 12
+9 FIN
+10 REM "Test d'erreurs de saut"
+11 VAVERS 20
+12 I = I + 1
+13 J = J - 1
+14 SI I <> J ALORS VAVERS 12
+15 IMPRIME "I et J sont egaux:", I
+16 NL
+17 X = (I * 2 + J) / (A - B + 1)
+18 Y = X * (5 + I) - 3
+19 IMPRIME "Calculs complexes X et Y: ", X, Y
+20 IMPRIME "Fin du programme"
+21 FIN

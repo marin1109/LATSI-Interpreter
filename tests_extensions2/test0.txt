@@ -1,0 +1,13 @@
+1 IMPRIME "hello world"
+2 SI 2 < 10 ALORS X , Y , Z = 1 , 2 , 3
+4 SOUSROUTINE 16
+5 IMPRIME 2^2^3
+12 IMPRIME X, " = X"
+13 IMPRIME Y, " = Y"
+14 IMPRIME Z, " = Z"
+16 IMPRIME "salut1"
+17 IMPRIME "salut2"
+17 RETOURNE
+18 IMPRIME "salut3"
+19 IMPRIME "salut4"
+20 FIN

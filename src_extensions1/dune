@@ -1,0 +1,10 @@
+(ocamllex
+ (modules latsi_lexer))
+(menhir
+  (modules latsi_parser)
+  (infer true)
+  (flags --explain --dump))
+
+(executable
+ (name latsi_main)
+ (libraries unix))

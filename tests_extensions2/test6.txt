@@ -1,0 +1,8 @@
+1 A, B, C = 1, 2, 20
+2 SOUSROUTINE 6
+3 IMPRIME "C = ", C
+4 FIN
+5 RETOURNE
+6 IMPRIME "C = ", C
+7 C = A + B!
+8 RETOURNE

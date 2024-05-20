@@ -1,0 +1,30 @@
+1 A, B, C, D, E = 1, 2, 3, 4, 5
+2 IMPRIME "Début du test complexe."
+3 A, B, C = A^2, B!, C + A
+4 IMPRIME "Après première transformation: ", A, " ", B, " ", C
+5 SOUSROUTINE 15
+6 D, E = D * C, E - B
+7 IMPRIME "Avant le saut vers la sous-routine: ", D, " ", E
+8 SOUSROUTINE 20
+9 IMPRIME "Ceci est ignoré après le deuxième SOUSROUTINE."
+10 FIN
+11 RETOURNE
+12 A, B, C = (A + E)!, (B + D)^2, (C - B)!
+13 IMPRIME "Après retour et transformations complexes: ", A, " ", B, " ", C
+14 FIN
+15 IMPRIME "Dans la première sous-routine."
+16 D, E = E + D!, D + E^2
+17 IMPRIME "Après calculs dans la sous-routine: ", D, " ", E
+18 RETOURNE
+19 IMPRIME "Jamais affiché."
+20 IMPRIME "Dans la deuxième sous-routine."
+21 C = B + D * E
+22 IMPRIME "Après calcul dans la deuxième sous-routine: ", C
+23 SOUSROUTINE 25
+24 FIN
+25 IMPRIME "Troisième sous-routine utilisant les résultats antérieurs."
+26 A, B, C, D, E = A + B, B * C, C - D, D / E, E^A
+27 IMPRIME "Avant de finir dans la troisième sous-routine: ", A, " ", B, " ", C, " ", D, " ", E
+28 RETOURNE
+29 IMPRIME "Fin du programme."
+30 FIN

@@ -1,0 +1,3 @@
+10 X = 10
+20 TANTQUE X > 0 FAIRE IMPRIME "Compte à rebours: ", X; X = X - 1;
+60 FIN

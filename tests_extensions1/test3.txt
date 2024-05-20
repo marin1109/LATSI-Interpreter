@@ -1,0 +1,6 @@
+1 A = 10, B = 20
+2 SOUSROUTINE 5
+3 IMPRIME "Retour du sous-routine."
+4 FIN
+5 B = B + A
+6 RETOURNE

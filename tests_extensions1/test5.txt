@@ -1,0 +1,4 @@
+1 N = 5
+2 F = N!
+3 IMPRIME "Factoriel de ", N, " est ", F
+4 FIN

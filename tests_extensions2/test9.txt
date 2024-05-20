@@ -1,0 +1,11 @@
+1 A, B, C, D, E = 1, 2, 3, 4, 5
+2 SOUSROUTINE 8
+3 IMPRIME "Affiché"
+4 FIN
+5 RETOURNE
+6 A, B, C, D, E = A!, B^2, C + D, E - A, A^C
+7 IMPRIME A, " ", B, " ", C, " ", D, " ", E
+8 D = C * B!
+9 RETOURNE
+10 IMPRIME "Calcul final:", D
+11 FIN

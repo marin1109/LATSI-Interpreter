@@ -1,0 +1,5 @@
+1 X = 15
+2 Y = 20
+3 SI X < Y ALORS IMPRIME "X est inferieur a Y"
+4 NL
+5 FIN

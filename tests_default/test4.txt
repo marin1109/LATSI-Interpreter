@@ -1,0 +1,6 @@
+1 REM "Test de la logique de condition."
+2 IMPRIME "Test conditionnel"
+3 I = 0
+4 SI I == 0 ALORS IMPRIME "I est zero"
+5 I = I + 1
+6 FIN

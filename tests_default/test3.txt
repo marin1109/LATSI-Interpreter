@@ -1,0 +1,8 @@
+5 REM "Variante avec moins de boucles."
+10 IMPRIME "Bonjour Paris"
+20 I = 0
+30 SI I > 5 ALORS VAVERS 40
+35 IMPRIME I, " fois"
+37 I = I + 1
+39 VAVERS 30
+40 FIN

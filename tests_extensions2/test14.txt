@@ -1,0 +1,7 @@
+1 TANTQUE X >< 59 FAIRE ENTREE X; A = A + 1;
+2 IMPRIME "Nombre de tentatives A : ", A
+3 SI A < 10 ALORS TANTQUE Y >< X FAIRE ENTREE Y; B = B + 1;
+4 IMPRIME "Nombre de tentatives B : ", B
+5 SI A < B ALORS IMPRIME "A a gagne"
+6 SI A > B ALORS IMPRIME "B a gagne"
+7 FIN

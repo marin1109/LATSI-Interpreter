@@ -1,0 +1,6 @@
+1 X = (5 + 3) * 2
+2 Y = X / 2 - 3
+3 SI X <> Y ALORS IMPRIME "X et Y sont differents"
+4 SI X == Y ALORS IMPRIME "X et Y sont egaux"
+5 NL
+6 FIN

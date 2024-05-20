@@ -1,0 +1,6 @@
+1 REM "Programme avec entree utilisateur et erreur."
+2 ENTREE X, Y
+3 IMPRIME "Vous avez entre: ", X, " ", Y
+4 X = X + 1
+5 SI X > 5 ALORS IMPRIME "X est grand"
+6 FIN

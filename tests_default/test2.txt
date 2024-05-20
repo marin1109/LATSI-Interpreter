@@ -1,0 +1,6 @@
+1 REM "Code simple"
+2 IMPRIME "Hello, World"
+3 IMPRIME X
+4 X = 493
+5 IMPRIME X
+6 FIN
